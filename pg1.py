@@ -1,4 +1,6 @@
-'''str = "Madam"
+
+#Check if string is palindrome or not
+str = "Madam"
 str1 = str.lower()
 print(str1[::-1])
 if str1 == str1[::-1] :
@@ -7,7 +9,7 @@ else:
 	print("Not Palindrome")
 
 
-
+#Check if string is palindrome or not using while loop
 class Test():
 
 	@staticmethod
@@ -24,13 +26,13 @@ class Test():
 
 		print('Palindrome')
 
-
 print('second prog')
 Test().palindrome(str1)
 
-str = 'gjhghjh'
+#Count of occurrence of needle in the string
+str = 'abbbbaba'
 
-needle = 'jj'
+needle = 'ab'
 print('needle found')
 count = 0
 
@@ -39,18 +41,18 @@ for key,value in enumerate(str):
 	if (str[key] == needle[0] and str[key+1] == needle[1]):
 		count += 1
 
-
 print('count',count)
 
+
+#Convert a string to integer
 num = '123'
 val = type(int(num))
 
 if val is int:
 	print(int(num))
 
-#print(num.isnumeric())
-'''
-# check string is valid number or not
+
+#Check string is valid number or not
 class test:
 	@staticmethod
 	def numcheck(n):
